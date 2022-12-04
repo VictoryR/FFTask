@@ -1,0 +1,90 @@
+.main-content {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+#select_count {
+	width: 150px;
+	border-radius: 4px;
+}
+
+table { 
+    border-collapse: collapse; 
+	margin-bottom: 16px;
+	table-layout: fixed;
+}
+
+tr {	
+	border-bottom: 1px solid #A9A9A9;
+}
+
+td {
+	padding: 8px 16px 8px 4px;
+}
+
+td + td {
+	padding-left: 16px;
+}
+
+.table-name {
+	width: 300px;
+}
+
+.main-count {
+	display: flex;
+    flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: 16px;
+}
+
+.count {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons {
+	display:flex;
+}
+
+.buttons div {
+	padding: 8px;
+}
+
+
+#back { 
+	border: 1px solid blue;
+	border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+	border-right: 0.5px solid blue;
+}
+
+
+#back.disabled {
+	pointer-events:none;
+	cursor: default;
+	opacity: 0.5;
+}
+
+#forward {
+	border: 1px solid blue;
+	border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+	border-left: 0.5px solid blue;
+}
+
+#forward.disabled {
+	pointer-events:none;
+	cursor: default;
+	opacity: 0.5;
+}
+
+.is-bold {
+	font-weight: bold;
+}
